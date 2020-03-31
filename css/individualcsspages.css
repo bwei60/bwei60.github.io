@@ -1,0 +1,55 @@
+* {box-sizing: border-box;}
+body{
+    padding-top: 5%;
+}
+.one{
+    position: relative;
+    width: 70%;
+}
+#one{
+    z-index: 1;
+    position: absolute;
+    top: -2rem;
+    left: 2.1rem;
+    width: 95%;
+}
+.box{
+    position: relative;
+}
+
+p{
+    z-index: 2;
+    position: absolute;
+    font-family: 'Prata', serif;
+    font-size:8vw;
+    top:28rem;
+    left: 10rem;
+}
+.character{
+    padding: 2%;
+}
+.para2{
+    top: 2rem;
+    width: 45%;
+    font-family: 'Bellota Text', cursive;
+    font-size: 2.2vh;
+    position: absolute;
+}
+.bottom,.top{
+    position: fixed;
+    font-family: 'Bellota Text', cursive;
+    width:80px;
+    height:30px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+ }
+.top{
+    left: 1rem;
+    top: 0;
+}
+.bottom{
+    right: 1rem;
+    bottom: 6rem;
+}
+

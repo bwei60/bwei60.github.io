@@ -1,0 +1,55 @@
+p {
+    text-align: center;
+    font-family: 'Bellota Text', cursive;
+    font-size: 4vh;
+    position: relative;
+}
+
+#title {
+    font-size: 5vh;
+    font-family: 'Prata', serif;
+}
+
+.box {
+    position: relative;
+}
+
+.polaroids {
+    height: auto;
+    width: 75%;
+    position: relative;
+}
+
+#one {
+    width: 100%;
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+    top: -1.5rem;
+    left: 0.5rem;
+}
+
+.box:hover #one {
+    opacity: 1;
+}
+
+.bottom,
+.top {
+    position: absolute;
+    font-family: 'Bellota Text', cursive;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.top {
+    left: 1rem;
+    top: 0;
+}
+
+.bottom {
+    right: 1rem;
+    bottom: 6rem;
+}

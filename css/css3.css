@@ -1,0 +1,133 @@
+html {
+    text-decoration: "none";
+    scroll-behavior: smooth;
+}
+
+.intro {
+    font-family: 'Prata', serif;
+    font-size: 7vw;
+    text-align: right;
+}
+
+#first,
+#second {
+    position: relative;
+    width: 80%;
+}
+
+.para,
+ul {
+    font-family: 'Bellota Text', cursive;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.para2 {
+    font-family: 'Bellota Text', cursive;
+    padding: 5%;
+    font-size: 2vw;
+}
+
+.top {
+    top: 0rem;
+    left: 1rem;
+}
+
+a {
+    text-align: center;
+    text-decoration: "none";
+    color: black;
+}
+
+.top,
+.bottom {
+    position: fixed;
+    font-family: 'Bellota Text', cursive;
+    text-decoration: "none";
+    width: 80px;
+    height: 30px;
+}
+
+.bottom {
+    text-decoration: "none";
+    bottom: 6rem;
+    right: 1rem;
+}
+
+.characters {
+    width: 3vw;
+    height: auto;
+}
+
+#introdoodle {
+    position: absolute;
+    width: 47vw;
+    top: -3vh;
+    right: 0rem;
+    z-index: -99999;
+}
+
+#geistdoodle {
+    position: absolute;
+    width: 30vw;
+    top: -3vh;
+    right: 1vh;
+    z-index: -99999;
+}
+
+#taidoodle {
+    position: absolute;
+    width: 25vw;
+    top: -2vh;
+    right: 1vh;
+    z-index: -99999;
+}
+
+#cherdoodle {
+    position: absolute;
+    width: 10vw;
+    top: 2vh;
+    right: 1vh;
+    z-index: -99999;
+}
+
+#cherdoodle2 {
+    position: absolute;
+    width: 20vw;
+    right: 20vw;
+    z-index: -99999;
+}
+
+#clickit {
+    position: absolute;
+    width: 20vw;
+    left: 15vw;
+    z-index: 99999;
+}
+
+#cokeroller {
+    position: absolute;
+    width: 40vh;
+    left: 40vw;
+    z-index: 99999;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 1.25rem;
+    right: 48.5%;
+    z-index: 99;
+    font-size: .825rem;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 0, 149);
+    color: white;
+    cursor: pointer;
+    padding: 0.825rem;
+    border-radius: 3.125rem;
+}
+
+#myBtn:hover {
+    color: black;
+}
